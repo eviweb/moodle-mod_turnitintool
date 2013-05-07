@@ -11,7 +11,7 @@ defined("TURNITINTOOL_ENCRYPT") or define("TURNITINTOOL_ENCRYPT","0");
 /**
  * The pause in between API calls
  */
-defined("TURNITINTOOL_LATENCY_SLEEP") or define("TURNITINTOOL_LATENCY_SLEEP","4");
+defined("TURNITINTOOL_LATENCY_SLEEP") or define("TURNITINTOOL_LATENCY_SLEEP","0");
 /**
  * API Error: Start Error Code
  */
