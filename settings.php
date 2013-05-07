@@ -10,7 +10,7 @@ if ($ADMIN->fulltree) {
     require_once($CFG->dirroot.'/mod/turnitintool/lib.php');
     require_once($CFG->dirroot.'/mod/turnitintool/version.php');
 
-    $upgrade = turnitintool_updateavailable( $module );
+    $upgrade = null; //turnitintool_updateavailable( $module );
     $upgradeavailable = ( is_null( $upgrade ) ) ? '' : ' <a href="'.$upgrade.'"><i><b>'.get_string('upgradeavailable','turnitintool').'</b></i></a> ';
 
     $toplinks = '<div><a href="'.$CFG->wwwroot.'/mod/turnitintool/extras.php">'.get_string("connecttest", "turnitintool")
